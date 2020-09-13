@@ -1,0 +1,17 @@
+package loop;
+
+public class dowhileloop {
+
+	public static void main(String[] args) {
+		// initialization
+		int i=0;
+		do {
+			syso(i);
+			//increment/decrement
+			i++;
+			
+		}while(i<0);//condition
+
+	}
+
+}

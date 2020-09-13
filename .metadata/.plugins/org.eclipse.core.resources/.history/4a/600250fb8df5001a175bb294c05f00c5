@@ -1,0 +1,16 @@
+package Function;
+
+public class Car
+{
+	
+	public String colour="Blue";
+	public int Wheels=4;
+	public String type;
+	
+	public void feature()
+	{
+		System.out.println("My "+Wheels+" wheeler car has "+colour+" and its "+type+" is sedan");
+	}
+	
+
+}

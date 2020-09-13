@@ -1,0 +1,13 @@
+package loop;
+
+public class foreachloop2 {
+	
+	public static void main(String[] args) {
+		//Integer array
+		int [] ids= {1,2,3,4,5};
+		for (int i : ids) {
+			System.out.println(); 
+		}
+	}
+
+}

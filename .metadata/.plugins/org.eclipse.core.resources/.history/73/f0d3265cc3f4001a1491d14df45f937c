@@ -1,0 +1,23 @@
+package Array;
+
+public class arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] stds= new String[5];
+		stds [0]="Amruta";
+		stds [1]="Amruta";
+		stds [2]="Amruta";
+		stds [3]="Amruta";
+		stds [4]="Amruta";
+		syso (stds[3]);
+		syso (stds.length)
+		
+		
+		
+		
+
+
+	}
+
+}

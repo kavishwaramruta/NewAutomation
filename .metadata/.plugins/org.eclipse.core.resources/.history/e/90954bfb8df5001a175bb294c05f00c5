@@ -1,0 +1,22 @@
+package Function;
+
+public class CarUser {
+
+	public static void main(String[] args) {
+		
+		Car car1=new Car();
+        car1.colour="Red";
+        car1.type="SUV";
+        car1.Wheels=4;
+        car1.feature();
+        
+        Car car2=new Car();
+        car2.colour="white";
+        car2.type="sports";
+        car2.Wheels=4;
+        car2.feature();
+        		
+        
+	}
+
+}

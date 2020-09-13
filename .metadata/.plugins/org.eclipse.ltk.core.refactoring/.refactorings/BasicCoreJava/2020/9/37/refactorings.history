@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;foreachloop.java&apos; to &apos;BasicCoreJava/src/loop&apos;&#x0D;&#x0A;- Original project: &apos;BasicCoreJava&apos;&#x0D;&#x0A;- Destination element: &apos;BasicCoreJava/src/loop&apos;&#x0D;&#x0A;- Original element: &apos;foreachloop.java&apos;" description="Copy compilation unit" destination="/src&lt;loop" element1="/src&lt;{foreachloop.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1599893050699" units="1" version="1.0"/>
+</session>

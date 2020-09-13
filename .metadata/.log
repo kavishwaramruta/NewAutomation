@@ -1,0 +1,894 @@
+!SESSION 2020-09-11 22:10:16.699 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-11 22:13:40.776
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-11 22:14:24.525
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-11 22:16:24.138
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2020-09-11 22:17:03.629
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3276)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3985)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3541)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-11 22:21:24.612
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-11 22:22:37.161
+!MESSAGE HTTP Remote File Permanently Removed: https://beust.com/eclipse/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-09-11 22:22:37.167
+!MESSAGE HttpComponents connection error response code 410.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-11 22:23:11.719
+!MESSAGE No repository found at https://cucumber.io/cucumber-eclipse/update-site.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-11 22:23:56.513
+!MESSAGE HTTP Remote File Permanently Removed: http://beust.com/eclipse/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-09-11 22:23:56.513
+!MESSAGE HttpComponents connection error response code 410.
+
+!ENTRY org.eclipse.jdt.debug 2 0 2020-09-11 23:15:03.690
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2020-09-12 00:25:57.814
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2020-09-12 00:35:20.624
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.text 4 2 2020-09-12 06:57:41.982
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.eclipse.swt.graphics.TextLayout.merge(TextLayout.java:2773)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2747)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculate(StyledTextRenderer.java:295)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:324)
+	at org.eclipse.swt.custom.StyledText.resetCache(StyledText.java:8073)
+	at org.eclipse.swt.custom.StyledText.handleTextChanged(StyledText.java:6331)
+	at org.eclipse.swt.custom.StyledText$5.textChanged(StyledText.java:5766)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.documentChanged(ConsoleDocumentAdapter.java:350)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1105)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1123)
+	at org.eclipse.ui.internal.console.ConsoleDocument.replace(ConsoleDocument.java:95)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.processQueue(IOConsolePartitioner.java:536)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner$QueueProcessingJob.runInUIThread(IOConsolePartitioner.java:486)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 4 2020-09-12 06:57:54.197
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5552)
+	at org.eclipse.swt.custom.StyledText.setCaretLocation(StyledText.java:8661)
+	at org.eclipse.swt.custom.StyledText.setSelectionRange(StyledText.java:10026)
+	at org.eclipse.jface.text.TextViewer.setSelectedRange(TextViewer.java:2270)
+	at org.eclipse.jface.text.TextViewer.setSelection(TextViewer.java:2404)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.ui.internal.console.ConsoleView.showPageRec(ConsoleView.java:201)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:723)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.showConsole(ConsoleManager.java:315)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.runInUIThread(ConsoleManager.java:289)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2020-09-12 06:57:54.294
+!MESSAGE Error occurred during status handling
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledTextRenderer.drawLine(StyledTextRenderer.java:449)
+	at org.eclipse.swt.custom.StyledText.handlePaint(StyledText.java:6236)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5792)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1563)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4825)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 4 2020-09-12 06:57:54.393
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5552)
+	at org.eclipse.swt.custom.StyledText.setCaretLocation(StyledText.java:8661)
+	at org.eclipse.swt.custom.StyledText.setSelectionRange(StyledText.java:10026)
+	at org.eclipse.jface.text.TextViewer.setSelectedRange(TextViewer.java:2270)
+	at org.eclipse.jface.text.TextViewer.setSelection(TextViewer.java:2404)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.ui.internal.console.ConsoleView.showPageRec(ConsoleView.java:201)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:723)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.showConsole(ConsoleManager.java:315)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.runInUIThread(ConsoleManager.java:289)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 4 2020-09-12 06:58:05.159
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5552)
+	at org.eclipse.swt.custom.StyledText.setCaretLocation(StyledText.java:8661)
+	at org.eclipse.swt.custom.StyledText.setSelectionRange(StyledText.java:10026)
+	at org.eclipse.jface.text.TextViewer.setSelectedRange(TextViewer.java:2270)
+	at org.eclipse.jface.text.TextViewer.setSelection(TextViewer.java:2404)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.ui.internal.console.ConsoleView.showPageRec(ConsoleView.java:201)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:723)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.showConsole(ConsoleManager.java:315)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.runInUIThread(ConsoleManager.java:289)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2020-09-12 06:58:05.485
+!MESSAGE Error occurred during status handling
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledTextRenderer.drawLine(StyledTextRenderer.java:449)
+	at org.eclipse.swt.custom.StyledText.handlePaint(StyledText.java:6236)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5792)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1563)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4825)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 4 2020-09-12 06:58:05.499
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5552)
+	at org.eclipse.swt.custom.StyledText.setCaretLocation(StyledText.java:8661)
+	at org.eclipse.swt.custom.StyledText.setSelectionRange(StyledText.java:10026)
+	at org.eclipse.jface.text.TextViewer.setSelectedRange(TextViewer.java:2270)
+	at org.eclipse.jface.text.TextViewer.setSelection(TextViewer.java:2404)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.ui.internal.console.ConsoleView.showPageRec(ConsoleView.java:201)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:723)
+	at org.eclipse.ui.internal.console.ConsoleView.display(ConsoleView.java:515)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.showConsole(ConsoleManager.java:315)
+	at org.eclipse.ui.internal.console.ConsoleManager$ShowConsoleViewJob.runInUIThread(ConsoleManager.java:289)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 4 2020-09-12 06:59:27.172
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculate(StyledTextRenderer.java:295)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:324)
+	at org.eclipse.swt.custom.StyledText.resetCache(StyledText.java:8073)
+	at org.eclipse.swt.custom.StyledText.handleTextChanged(StyledText.java:6331)
+	at org.eclipse.swt.custom.StyledText$5.textChanged(StyledText.java:5766)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.documentChanged(ConsoleDocumentAdapter.java:350)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1105)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1123)
+	at org.eclipse.ui.internal.console.ConsoleDocument.replace(ConsoleDocument.java:95)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.processQueue(IOConsolePartitioner.java:536)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner$QueueProcessingJob.runInUIThread(IOConsolePartitioner.java:486)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.showStatusAdapter(WorkbenchErrorHandler.java:89)
+	at org.eclipse.ui.statushandlers.WorkbenchErrorHandler.handle(WorkbenchErrorHandler.java:52)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchErrorHandler.handle(IDEWorkbenchErrorHandler.java:105)
+	at org.eclipse.ui.internal.WorkbenchErrorHandlerProxy.handle(WorkbenchErrorHandlerProxy.java:34)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.done(ProgressManager.java:455)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:73)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:118)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:684)
+	at org.eclipse.core.internal.jobs.InternalJob.done(InternalJob.java:201)
+	at org.eclipse.core.runtime.jobs.Job.done(Job.java:339)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:111)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 4 2020-09-12 06:59:27.188
+!MESSAGE An internal error has occurred.
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:4725)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2740)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:248)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1902)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:1209)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:887)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculate(StyledTextRenderer.java:295)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:324)
+	at org.eclipse.swt.custom.StyledText.resetCache(StyledText.java:8073)
+	at org.eclipse.swt.custom.StyledText.handleTextChanged(StyledText.java:6331)
+	at org.eclipse.swt.custom.StyledText$5.textChanged(StyledText.java:5766)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.documentChanged(ConsoleDocumentAdapter.java:350)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1105)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1121)
+	at org.eclipse.ui.internal.console.ConsoleDocument.replace(ConsoleDocument.java:95)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner$TrimJob.runInUIThread(IOConsolePartitioner.java:609)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2020-09-12 08:01:38.082 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-12 08:03:01.853
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-12 08:03:57.899
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-12 08:04:19.579
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-12 08:19:10.572
+!MESSAGE HTTP Remote File Permanently Removed: https://beust.com/eclipse/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-09-12 08:19:10.612
+!MESSAGE HttpComponents connection error response code 410.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-12 08:19:25.790
+!MESSAGE No repository found at https://cucumber.io/cucumber-eclipse/update-site.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-12 08:19:48.228
+!MESSAGE HTTP Remote File Permanently Removed: http://beust.com/eclipse/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-09-12 08:19:48.229
+!MESSAGE HttpComponents connection error response code 410.
+!SESSION 2020-09-12 21:23:39.234 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-12 21:24:03.887
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-09-12 21:38:00.455 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-12 21:38:24.471
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-12 21:38:40.571
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-12 21:39:10.485
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-12 21:51:25.156
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-09-12 22:37:28.800
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.manipulation.dom.ASTResolving.getPossibleReferenceBinding(ASTResolving.java:269)
+	at org.eclipse.jdt.internal.core.manipulation.dom.ASTResolving.guessBindingForReference(ASTResolving.java:105)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarVariableProposals(UnresolvedElementsSubProcessor.java:470)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getVariableProposals(UnresolvedElementsSubProcessor.java:306)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:383)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:338)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:387)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:347)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:342)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:477)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:105)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:79)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:305)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:192)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1151)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:884)
+	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:251)
+	at org.eclipse.jface.text.TextViewerHoverManager.lambda$0(TextViewerHoverManager.java:241)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-12 22:38:05.140
+!MESSAGE HTTP Remote File Permanently Removed: https://beust.com/eclipse/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-09-12 22:38:05.376
+!MESSAGE HttpComponents connection error response code 410.
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-09-12 22:38:40.047
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.manipulation.dom.ASTResolving.getPossibleReferenceBinding(ASTResolving.java:269)
+	at org.eclipse.jdt.internal.core.manipulation.dom.ASTResolving.guessBindingForReference(ASTResolving.java:105)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarVariableProposals(UnresolvedElementsSubProcessor.java:470)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getVariableProposals(UnresolvedElementsSubProcessor.java:306)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:383)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:338)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:387)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:347)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:342)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:477)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:105)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getCompletionProposals(ProblemHover.java:79)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.deferredCreateContent(AbstractAnnotationHover.java:305)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setInput(AbstractAnnotationHover.java:192)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1151)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.presentInformation(AbstractHoverInformationControlManager.java:884)
+	at org.eclipse.jface.text.TextViewerHoverManager.doPresentInformation(TextViewerHoverManager.java:251)
+	at org.eclipse.jface.text.TextViewerHoverManager.lambda$0(TextViewerHoverManager.java:241)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-12 22:38:40.239
+!MESSAGE No repository found at https://cucumber.io/cucumber-eclipse/update-site.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-12 22:39:04.128
+!MESSAGE HTTP Remote File Permanently Removed: http://beust.com/eclipse/compositeContent.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:293)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-09-12 22:39:04.129
+!MESSAGE HttpComponents connection error response code 410.

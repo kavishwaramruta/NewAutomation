@@ -1,0 +1,24 @@
+package Array;
+
+public class pattern3 {
+
+	public static void main(String[] args) {
+String[][] arr = new String[4][4];
+		
+
+//initialization
+		int i=0;
+		//condition
+	    while(i<10)
+	    {
+	    	//logic
+	    	System.out.println(i);
+	    	
+	    	//increment
+	    	i++;
+	    }
+	    }
+
+	}
+
+
